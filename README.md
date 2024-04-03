@@ -93,3 +93,5 @@ PASS  Tests\Feature\ExampleTest
 Tests:    9 passed (29 assertions)
 Duration: 1.28s
 ```
+
+Copyright 2024, Max Base
