@@ -113,7 +113,7 @@ PASS  Tests\Unit\ExampleTest
 ✓ that true is true
 
 PASS  Tests\Feature\AuthenticationTest
-✓ login screen can be rendered                                                                                                                                                                      1.05s  
+✓ login screen can be rendered                                                                                                                                                                      0.91s  
 ✓ users can authenticate using the login screen                                                                                                                                                     0.04s  
 ✓ users can not authenticate with invalid password                                                                                                                                                  0.02s  
 
@@ -124,8 +124,8 @@ PASS  Tests\Feature\ExampleTest
 ✓ login with random user                                                                                                                                                                            0.02s  
 ✓ login with a user                                                                                                                                                                                 0.05s  
 
-Tests:    9 passed (29 assertions)
-Duration: 1.28s
+Tests:    9 passed (35 assertions)
+Duration: 1.14s
 ```
 
 Copyright 2024, Max Base
