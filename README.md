@@ -1,4 +1,22 @@
-# VAT Calculation
+# Online VAT Calculator
+
+**Superadmin username:** admin@gmail.com
+
+**Superadmin password:** password
+
+**Project Features:**
+- Automated tests integrated to ensure reliability.
+- Implementation of factories and seeders for all models for efficient database management.
+- Automatic creation of super admins for streamlined administration.
+- Geolocation detection capability when users submit new VAT calculation requests.
+- VAT calculation functionality for both gross and net amounts.
+- Visualization of data through various charts including world maps and bar charts showcasing the number of calculations in recent days/months.
+- Utilization of Laravel 11 framework for robust development.
+- Creation of an aesthetically pleasing admin panel using a sophisticated template.
+- Superadmin's ability to create new users for seamless user management.
+- User management functionalities including deletion and editing of users.
+- Profile editing feature for users to update their information.
+- Integration of the DataTable plugin in Laravel, offering pagination, search, and sorting features for enhanced user experience.
 
 ## Demo
 
