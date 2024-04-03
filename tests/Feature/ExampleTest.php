@@ -41,7 +41,7 @@ class ExampleTest extends TestCase
 
         $response = $this->post('/login', [
             'email' => $user->email,
-            'password' => 'password' . rand(1000, 9999),
+            'password' => 'password'.rand(1000, 9999),
         ]);
 
         $response->assertStatus(302)->assertRedirect('/');
