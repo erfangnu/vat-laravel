@@ -41,7 +41,7 @@ class ExampleTest extends TestCase
 
         $response = $this->post('/login', [
             'email' => $user->email,
-            'password' => 'password'.rand(1000, 9999),
+            'password' => 'password' . rand(1000, 9999),
         ]);
 
         $response->assertStatus(302)->assertRedirect('/');
@@ -75,10 +75,10 @@ class ExampleTest extends TestCase
         $response = $this->get('/profile');
         $response->assertStatus(200);
 
-        $response = $this->get('/logout');
-        $response->assertStatus(200);
+        $response = $this->post('/logout');
+        $response->assertStatus(302)->assertRedirect('/');
 
         $response = $this->get('/profile');
-        $response->assertStatus(302)->assertRedirect('/');
+        $response->assertStatus(302)->assertRedirect('/login');
     }
 }
